@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator()
   speaker = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
-  #array each 
-  #puts out "each componet in array into badge_maker"
+  speaker.each do |speaker|
+    badge_maker(speaker)
 end
 batch_badge_creator
