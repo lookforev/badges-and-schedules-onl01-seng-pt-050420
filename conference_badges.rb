@@ -9,5 +9,6 @@ def batch_badge_creator()
   speaker = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
   speaker.each do |speaker|
     badge_maker(speaker)
+  end
 end
 batch_badge_creator
