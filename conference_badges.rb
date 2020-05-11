@@ -10,5 +10,3 @@ def batch_badge_creator()
   speaker.each do |speaker|
     badge_maker(speaker)
 end
-
-batch_badge_creator
